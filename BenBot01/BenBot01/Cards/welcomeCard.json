@@ -1,0 +1,41 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+      {
+        "type": "Image",
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtB3AwMUeNoq4gUBGe6Ocj8kyh3bXa9ZbV7u1fVKQoyKFHdkqU",
+        "size": "stretch"
+      },
+      {
+        "type": "TextBlock",
+        "spacing": "medium",
+        "size": "default",
+        "weight": "bolder",
+        "text": "Welcome to Ben's Bot",
+        "wrap": true,
+        "maxLines": 0
+      },
+      {
+        "type": "TextBlock",
+        "size": "default",
+        "isSubtle": "true",
+        "text": "You can click on one of the links below for information or you can ask me a question.  I have been trained to know about the projects that Ben has worked on and the technologies involved.",
+        "wrap": true,
+        "maxLines": 0
+      }
+    ],
+    "actions": [
+      {
+        "type": "Action.OpenUrl",
+        "title": "View Ben's Website",
+        "url": "http://benemanuel.net"
+      },
+      {
+        "type": "Action.OpenUrl",
+        "title": "View some of Ben's code",
+        "url": "https://github.com/benemanuel13"
+      }
+    ]
+}

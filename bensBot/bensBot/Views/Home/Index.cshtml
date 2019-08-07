@@ -1,0 +1,20 @@
+﻿<h1>bensBot</h1>
+
+<script language="javascript" src="~/Scripts/bensBot.js"></script>
+<script language="javascript" src="~/Scripts/botClasses.js"></script>
+
+<div class="row">
+    <div id="chat" class="col-md-4">
+        <div id="chatBox" style="width:480px; height:640px; overflow:scroll; border:1px solid black; padding: 5px 5px 5px 5px;">
+            <h1>Welcome to bensBot</h1>
+            <h3>What can I do for you today?</h3>
+        </div><br />
+        <input id="chatText" type="text" style="width:250px;" />
+        <input id="connect" type="button" value="Connect" onclick="startConversation()" />
+        <span id="spanStatus">(display)</span><br /><br />
+        <input id="sendText" type="button" value="Send Message" onclick="sendText()" />
+    </div>
+    <div id="content" class="col-md-8">
+
+    </div>
+</div>
